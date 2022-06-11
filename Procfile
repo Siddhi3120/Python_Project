@@ -1,1 +1,1 @@
-web: gunicorn myPython:app --log-file -
+web: uvicorn application.server.myPython:app --host 0.0.0.0 --port $PORT --workers 2
