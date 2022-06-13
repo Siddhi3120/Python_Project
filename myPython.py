@@ -4,7 +4,7 @@ from flask import Flask
 
 # Flask constructor takes the name of
 # current module (__name__) as argument.
-app = Flask(__name__)
+app = Flask(__name__, template_folder="template")
 
 # The route() function of the Flask class is a decorator,
 # which tells the application which URL should call
