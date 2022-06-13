@@ -11,5 +11,4 @@ platformdirs==2.5.2
 six==1.16.0
 virtualenv==20.14.1
 Werkzeug==2.1.2
-gunicorn
-uvicorn
+uvicorn==0.12.2
