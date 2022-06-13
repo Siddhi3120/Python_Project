@@ -10,5 +10,5 @@ platformdirs==2.5.2
 six==1.16.0
 virtualenv==20.14.1
 Werkzeug==2.1.2
-uvicorn==0.12.2
-click==7.1.2
+uvicorn
+click==8.1.3
